@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-DAY</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ===================== HEADER ===================== -->
+    <nav class="navbar navbar-expand-lg navbar-quantum fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand brand" href="#inicio"><img src="img/logo_q_blanco.jpeg" alt="" class="logoQ"> - DAY
+            </a>
+            <img src="img/Cenidet_logo.png" class="logoCeni">
+            <img src="img/TecNM_logo_blanco.png" class="logoTec">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ponentes">Ponentes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registro">Registro</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button class="btn btn-quantum" data-bs-toggle="modal" data-bs-target="#modalInfoEvento">
+                            <i class="fa-solid fa-circle-info me-1"></i> Información del evento
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO / SLIDER ===================== -->
+    <header id="inicio">
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-slide" style="background-image:url('img/izquierda\ -\ 1.png');">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image:url('img/Centro\ -\ 2.png');">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-slide" style="background-image:url(img/Derecha\ -\ 3.png);">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Texto fijo sobre el carrusel -->
+            <div class="hero-caption">
+                <!--<p class="eyebrow mb-3">Q-DAY</p>
+        <h1 class="mb-3">Jornada de <em>Computación Cuántica Orientada a la Ingeniería de Software Cuántico</em></h1>
+        <p class="hero-meta mb-4">27 de Agosto de 2026 · Modalidad Híbrida - CENIDET, Cuernavaca, Morelos</p>
+        <a href="#registro" class="btn btn-quantum me-2">Registrarme</a>
+      </div>-->
+
+                <!--<button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>-->
+            </div>
+    </header>
+
+    <!-- ===================== PONENTES ===================== -->
+    <section id="ponentes">
+        <div class="container">
+            <p class="eyebrow">PONENTES</p>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="speaker-card">
+                        <img class="speaker-photo" src="img/Dr_Braulio.jpeg">
+                        <div class="speaker-body">
+                            <p class="speaker-name">Dr. Braulio Misael Villegas Mtz</p>
+                            <p class="speaker-role"> Profesor investigador del Centro de Investigación en Ingeniería y
+                                Ciencias
+                                Aplicadas (CIICAp)</p>
+                            <!--<p class="speaker-topic">Redes neuronales variacionales</p>-->
+                            <button class="btn btn-link-quantum p-0 mt-2" data-bs-toggle="modal"
+                                data-bs-target="#modalPonente1">Ver
+                                perfil completo →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="speaker-card">
+                        <img class="speaker-photo" src="img/MSc_Victor.jpeg">
+                        <div class="speaker-body">
+                            <p class="speaker-name">M.Sc. Victor Onofre</p>
+                            <p class="speaker-role">Quantum Algorithm Developer</p>
+                            <!--<p class="speaker-topic">Esquemas basados en retículas</p>-->
+                            <!--<button class="btn btn-link-quantum p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalPonente2">Ver perfil completo →</button>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="speaker-card">
+                        <img class="speaker-photo" src="img/MC_Fernando.jpeg">
+                        <div class="speaker-body">
+                            <p class="speaker-name">M.C. Fernando Betanzo Sánchez</p>
+                            <p class="speaker-role">Senior Software Engineer</p>
+                            <!--<p class="speaker-topic">Redes neuronales variacionales</p>-->
+                            <button class="btn btn-link-quantum p-0 mt-2" data-bs-toggle="modal"
+                                data-bs-target="#modalPonente3">Ver
+                                perfil completo →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="speaker-card">
+                        <img class="speaker-photo" src="img/Dr_Alejandro.jpeg">
+                        <div class="speaker-body">
+                            <p class="speaker-name">Dr. Alejandro Fernández</p>
+                            <p class="speaker-role">Professor at the National University of La Plata, Researcher at
+                                CICPBA,
+                                Director of LIFIA. Quantum Computing - Software Enginnering - Knowledge Management</p>
+                            <!--<p class="speaker-topic">Redes neuronales variacionales</p>-->
+                            <button class="btn btn-link-quantum p-0 mt-2" data-bs-toggle="modal"
+                                data-bs-target="#modalPonente4">Ver
+                                perfil completo →</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="speaker-card">
+                        <img class="speaker-photo" src="img/Dr_JoseLuis.jpeg">
+                        <div class="speaker-body">
+                            <p class="speaker-name">M.Sc. José Luis Rodríguez Gómez</p>
+                            <p class="speaker-role">Senior IBM Account Technical Leader |
+                                IBM Quantum Technical Ambassador and Quantum Ambassador Regional Co-lead |
+                                Helping companies to achieve IT revolutions, one evolution at a time.</p>
+                            <!--<p class="speaker-topic">Redes neuronales variacionales</p>-->
+                            <button class="btn btn-link-quantum p-0 mt-2" data-bs-toggle="modal"
+                                data-bs-target="#modalPonente5">Ver
+                                perfil completo →</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== REGISTRO ===================== -->
+    <section id="registro" class="section-panel">
+        <div class="container">
+            <div class="registro-card">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <p class="eyebrow">REGISTRO</p>
+                        <h2 class="section-title">Asegura tu lugar</h2>
+                        <p class="section-sub mb-4">Completa el formulario oficial de Google Forms.</p>
+                        <ul class="list-unstyled ket-list mb-4">
+                            <li><i class="fa-solid fa-calendar-day"></i> 27 de Agosto de 2026</li>
+                            <li><i class="fa-solid fa-location-dot"></i> Auditorio CENIDET, Cuernavaca</li>
+                        </ul>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform"
+                            target="_blank" rel="noopener" class="btn btn-quantum me-2">
+                            <i class="fa-brands fa-google me-1"></i> Ir al formulario de registro
+                        </a>
+                        <button class="btn btn-outline-quantum" data-bs-toggle="modal"
+                            data-bs-target="#modalAyudaRegistro">¿Necesitas ayuda?</button>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="ratio ratio-4x3 rounded-4 overflow-hidden border">
+                            <iframe
+                                src="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform?embedded=true"
+                                width="640" height="3232" frameborder="0" marginheight="0"
+                                marginwidth="0">Cargando…</iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer>
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+            <div>
+                <img src="img/logo_q.png" alt="" class="logoQ">
+                Jornada de Computación Cuántica Orientada a la Ingeniería de Software Cuántico · Cuernavaca, Morelos
+            </div>
+            <div>
+                <a href="#inicio" class="me-3"><i class="fa-solid fa-arrow-up"></i> Volver arriba</a>
+                <a href="mailto:quantum.day@cenidet.tecnm.mx"><i class="fa-solid fa-envelope me-1"></i>Contacto</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

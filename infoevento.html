@@ -1,58 +1,1925 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q-DAY</title>
+  <meta charset="utf-8">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
-        rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="description" content="Información general de Q-Day 2026, Primera Jornada de Computación Cuántica orientada a la Ingeniería de Software Cuántico.">
+
+  <title>Información del evento | Q-Day 2026</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- Estilos generales del proyecto -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Estilos exclusivos de esta página -->
+  <link rel="stylesheet" href="infoevento.css">
 </head>
 
-<body>
-    <!-- ===================== HEADER ===================== -->
-    <nav class="navbar navbar-expand-lg navbar-quantum fixed-top py-3">
-        <div class="container">
-            <a class="navbar-brand brand" href="#inicio"><img src="img/logo_q_blanco.jpeg" alt="" class="logoQ"> - DAY
+<body id="inicio">
+
+  <!-- ===================== HEADER ===================== -->
+<nav class="navbar navbar-expand-lg navbar-quantum fixed-top py-2">
+  <div class="container-fluid px-3">
+
+    <a class="navbar-brand brand" href="index.html"> 
+        <img src="img/Q-DAY-TITULO.jpeg" alt="Q-Day 2026" class="logoQ"> </a>
+    <img src="img/Cenidet_logo.png" alt="CENIDET" class="logoCeni">
+    <img src="img/TecNM_logo_blanco.png" alt="Tecnológico Nacional de México" class="logoTec">
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navMenuInfo"
+      aria-controls="navMenuInfo"
+      aria-expanded="false"
+      aria-label="Abrir navegación">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse justify-content-end"
+      id="navMenuInfo">
+
+      <ul class="navbar-nav align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            Q-Day
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#acerca">
+            Acerca del evento
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#programa">
+            Programa
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#faq">
+            FAQ
+          </a>
+        </li>
+
+        <li class="nav-item ms-lg-3">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-quantum">
+
+            <i class="fa-solid fa-ticket me-1"></i>
+            Registro gratuito
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- ===================== CONTENIDO PRINCIPAL ===================== -->
+  <main>
+    <section class="info-hero">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+        <div class="col-lg-7">
+
+            <p class="info-eyebrow">
+            Información del evento
+            </p>
+
+            <h1 class="info-title">
+            Q-Day 2026
+            </h1>
+
+            <h2 class="info-subtitle">
+            Primera Jornada de Computación Cuántica orientada a la Ingeniería de Software Cuántico
+            </h2>
+
+            <p class="info-description">
+            Un espacio académico de divulgación, formación y vinculación
+            para estudiantes, docentes, investigadores y profesionales
+            interesados en las tecnologías cuánticas.
+            </p>
+
+            <div class="info-data">
+
+            <div class="info-data-item">
+                <i class="fa-solid fa-calendar-days"></i>
+                <span>27 de agosto de 2026</span>
+            </div>
+
+            <div class="info-data-item">
+                <i class="fa-solid fa-clock"></i>
+                <span>08:30 a 16:15 h</span>
+            </div>
+
+            <div class="info-data-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Auditorio CENIDET</span>
+            </div>
+
+            <div class="info-data-item">
+                <i class="fa-solid fa-globe"></i>
+                <span>Modalidad híbrida</span>
+            </div>
+
+            </div>
+
+            <div class="info-actions">
+
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-quantum">
+
+                <i class="fa-solid fa-ticket me-2"></i>
+                Registrarme
             </a>
-            <img src="img/Cenidet_logo.png" class="logoCeni">
-            <img src="img/TecNM_logo_blanco.png" class="logoTec">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-                <ul class="navbar-nav align-items-lg-center">
-                    <a href="index.html" class="btn btn-quantum">
-                        <i class="fa-solid fa-circle-info me-1"></i> Regresar
-                    </a>
+
+            <a href="#acerca" class="btn-info-secondary">
+                Conocer el evento
+                <i class="fa-solid fa-arrow-down ms-2"></i>
+            </a>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-5">
+
+            <div class="info-hero-card">
+
+            <img
+                src="img/logo_q.png"
+                alt="Identidad visual de Q-Day"
+                class="info-hero-logo">
+
+            <div class="info-hero-card-text">
+
+                <h3>
+                    Información general
+                </h3>
+
+                <div class="hero-info-list">
+
+                    <div class="hero-info-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>27 de agosto de 2026</span>
+                    </div>
+
+                    <div class="hero-info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>08:30 – 16:15 h</span>
+                    </div>
+
+                    <div class="hero-info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Auditorio CENIDET</span>
+                    </div>
+
+                    <div class="hero-info-item">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Modalidad híbrida</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="acerca" class="about-section">
+
+        <div class="container">
+
+            <div class="row align-items-center gy-5">
+
+                <div class="col-lg-6">
+
+                    <p class="section-tag">
+                        Acerca del evento
+                    </p>
+
+                    <h2 class="section-title">
+                        ¿Qué es Q-Day?
+                    </h2>
+
+                    <p class="section-text">
+                        Q-Day es la Primera Jornada de Computación Cuántica orientada a la Ingeniería de Software Cuántico,
+                        una iniciativa académica organizada por el Tecnológico Nacional de México, a través del CENIDET,
+                        con el propósito de acercar las tecnologías cuánticas a estudiantes, docentes, investigadores
+                        y profesionales.
+                    </p>
+
+                    <p class="section-text">
+                        Durante esta jornada se reunirán especialistas nacionales e internacionales para compartir
+                        conocimientos, experiencias y perspectivas sobre una de las áreas tecnológicas con mayor
+                        proyección para las próximas décadas.
+                    </p>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="about-card">
+
+                        <div class="about-icon">
+                            <i class="fa-solid fa-atom"></i>
+                        </div>
+
+                        <h3>
+                            Una iniciativa para impulsar el ecosistema cuántico
+                        </h3>
+
+                        <p>
+                            El objetivo de Q-Day es fomentar la divulgación científica,
+                            fortalecer la formación especializada y promover la colaboración
+                            entre la academia, la industria y la comunidad tecnológica.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="benefits-section">
+
+        <div class="container">
+
+            <div class="benefits-header">
+
+                <p class="section-tag">
+                    Experiencia Q-Day
+                </p>
+
+                <h2 class="section-title">
+                    ¿Por qué asistir?
+                </h2>
+
+                <p class="benefits-intro">
+                    Q-Day busca ofrecer una experiencia accesible, formativa y útil
+                    para quienes desean conocer el presente y futuro de las tecnologías cuánticas.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <h3>
+                            Aprende
+                        </h3>
+
+                        <p>
+                            Conoce los fundamentos, retos y aplicaciones de la computación cuántica
+                            mediante conferencias y actividades de divulgación.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+
+                        <h3>
+                            Conecta
+                        </h3>
+
+                        <p>
+                            Interactúa con especialistas, docentes, investigadores, estudiantes
+                            y profesionales vinculados con el ecosistema cuántico.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-compass"></i>
+                        </div>
+
+                        <h3>
+                            Descubre
+                        </h3>
+
+                        <p>
+                            Explora oportunidades de formación, proyectos de investigación,
+                            tesis académicas y desarrollo tecnológico.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+
+                    <article class="benefit-card">
+
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+
+                        <h3>
+                            Inspírate
+                        </h3>
+
+                        <p>
+                            Conoce experiencias y perspectivas que pueden orientarte hacia
+                            nuevas áreas académicas y profesionales.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="audience-section">
+
+        <div class="container">
+
+            <div class="audience-header text-center">
+
+                <p class="section-tag">
+                    Comunidad Q-Day
+                </p>
+
+                <h2 class="section-title">
+                    ¿A quién está dirigido?
+                </h2>
+
+                <p class="audience-intro">
+                    Q-Day está diseñado para una comunidad académica y tecnológica
+                    amplia, interesada en conocer las oportunidades de formación,
+                    investigación y desarrollo dentro del ecosistema cuántico.
+                </p>
+
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+
+                        <h3>
+                            Bachillerato
+                        </h3>
+
+                        <p>
+                            Estudiantes de nivel medio superior con interés en ciencia,
+                            tecnología, programación y nuevas áreas profesionales.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+
+                        <h3>
+                            Licenciatura
+                        </h3>
+
+                        <p>
+                            Estudiantes de computación, ingeniería, física, matemáticas
+                            y otras disciplinas relacionadas.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-microscope"></i>
+                        </div>
+
+                        <h3>
+                            Posgrado
+                        </h3>
+
+                        <p>
+                            Estudiantes de maestría y doctorado interesados en líneas
+                            emergentes de investigación y desarrollo tecnológico.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+
+                        <h3>
+                            Docentes e investigadores
+                        </h3>
+
+                        <p>
+                            Profesores, cuerpos académicos e investigadores que buscan
+                            conocer avances y oportunidades de colaboración.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-diagram-project"></i>
+                        </div>
+
+                        <h3>
+                            Responsables académicos
+                        </h3>
+
+                        <p>
+                            Coordinadores, responsables de diseño curricular y personas
+                            vinculadas con la actualización de programas educativos.
+                        </p>
+
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                    <article class="audience-card">
+
+                        <div class="audience-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+
+                        <h3>
+                            Comunidad tecnológica
+                        </h3>
+
+                        <p>
+                            Profesionales, instituciones y comunidades nacionales e
+                            internacionales interesadas en las tecnologías cuánticas.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="programa" class="program-section">
+
+        <div class="container">
+
+            <div class="program-header">
+
+                <p class="section-tag">
+                    Agenda del evento
+                </p>
+
+                <h2 class="section-title">
+                    Programa general
+                </h2>
+
+                <p class="program-intro">
+                    Una jornada completa con actividades institucionales,
+                    conferencias especializadas, espacios de interacción
+                    y participación de expertos nacionales e internacionales.
+                </p>
+
+            </div>
+
+
+            <div class="program-timeline">
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        08:30 – 09:00
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Registro
+                        </span>
+
+                        <h3>
+                            Recepción de invitados y asistentes
+                        </h3>
+
+                        <p>
+                            Acceso al auditorio, registro de participantes
+                            y preparación para el inicio de la jornada.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        09:00 – 09:40
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Apertura institucional
+                        </span>
+
+                        <h3>
+                            Ceremonia de inauguración
+                        </h3>
+
+                        <p>
+                            Bienvenida institucional, presentación del presídium,
+                            exposición de motivos, inauguración y fotografía oficial.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        09:40 – 10:10
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Introducción
+                        </span>
+
+                        <h3>
+                            Introducción a la computación cuántica
+                        </h3>
+
+                        <p>
+                            Presentación de conceptos fundamentales y panorama general
+                            de las tecnologías cuánticas.
+                        </p>
+                        <p>
+                            <strong>Participación de M.Sc. José Luis Ramírez Alcántara, TECNM Cenidet</strong>.
+                        </p>
+                        
+                        <button
+                            type="button"
+                            class="program-more"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalConferenciaJoseLuis">
+
+                            Ver más
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        10:10 – 11:10
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h3>
+                            Computación Cuántica en México: Cómo Construir una Carrera con Impacto Internacional.
+                        </h3>
+
+                        <p>
+                            <strong>Participación del Dr. Braulio Misael Villegas Martínez,CIICAp.</strong>
+                        </p>
+
+                        <button
+                            type="button"
+                            class="program-more"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalConferenciaBraulio">
+
+                            Ver más
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item program-break">
+
+                    <div class="program-time">
+                        11:10 – 11:30
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Receso
+                        </span>
+
+                        <h3>
+                            Pausa y networking.
+                        </h3>
+
+                        <p>
+                            Espacio para descanso e interacción entre participantes.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        11:30 – 12:30
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h3>
+                            Quantum Computing with Neutral Atoms
+                        </h3>
+
+                        <p>
+                            <strong>Participación virtual de M.Sc. Víctor Onofre, Pasqal.</strong>
+                        </p>
+
+                        <button
+                            type="button"
+                            class="program-more"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalConferenciaVictor">
+
+                            Ver más
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        12:30 – 13:30
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Evento Especial
+                        </span>
+
+                        <h3>
+                            Foro de Estudiantes
+                        </h3>
+
+                        <p>
+                            <strong>Panel de estudiantes con experiencia en investigación y desarrollo en computación cuántica.</strong>
+                        </p>
+                        <button
+
+                            type="button"
+
+                            class="program-more"
+
+                            data-bs-toggle="modal"
+
+                            data-bs-target="#modalConferenciaInvitado">
+
+                            Ver más
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item program-break">
+
+                    <div class="program-time">
+                        13:30 – 14:00
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Receso
+                        </span>
+
+                        <h3>
+                            Pausa intermedia
+                        </h3>
+
+                        <p>
+                            Tiempo libre antes de las actividades de la tarde.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        14:00 – 15:00
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h3>
+                            Más allá de los qubits: ser conscientes de los recursos cuánticos en la era NISQ
+                        </h3>
+
+                        <p>
+                            <strong>Participación del Dr. Alejandro Fernández, RIPAISC.</strong>
+                        </p>
+
+                        <button
+                            type="button"
+                            class="program-more"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalConferenciaAlejandro">
+
+                            Ver más
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        15:00 – 16:00
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h3>
+                            IBM Quantum
+                        </h3>
+
+                        <p>
+                            <strong>Participación de M.Sc. José Luis Rodríguez Gómez, IBM.</strong>
+                        </p>
+
+                        <button
+                            type="button"
+                            class="program-more"
+                            data-bs-toggle="modal"
+                            data-bs-target="#modalConferenciaIBM">
+
+                            Ver más
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="program-item">
+
+                    <div class="program-time">
+                        16:00 – 16:15
+                    </div>
+
+                    <div class="program-marker">
+                        <span></span>
+                    </div>
+
+                    <div class="program-content">
+
+                        <span class="program-type">
+                            Cierre
+                        </span>
+
+                        <h3>
+                            Ceremonia de clausura
+                        </h3>
+
+                        <p>
+                            Mensaje final, agradecimientos y cierre formal de Q-Day 2026.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="sede" class="venue-section">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-5">
+
+                    <p class="section-tag">
+                        Sede del evento
+                    </p>
+
+                    <h2 class="section-title">
+                        Participa desde CENIDET o en línea
+                    </h2>
+
+                    <p class="venue-intro">
+                        Q-Day 2026 se realizará en modalidad híbrida, permitiendo
+                        la participación presencial desde el auditorio del CENIDET
+                        y el acceso remoto a las actividades transmitidas en línea.
+                    </p>
+
+                    <div class="venue-info">
+
+                        <div class="venue-info-item">
+
+                            <div class="venue-info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div>
+                                <span>Ubicación</span>
+                                <strong>
+                                    Auditorio CENIDET
+                                </strong>
+                                <p>
+                                    Cuernavaca, Morelos, México
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="venue-info-item">
+
+                            <div class="venue-info-icon">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+
+                            <div>
+                                <span>Fecha</span>
+                                <strong>
+                                    27 de agosto de 2026
+                                </strong>
+                                <p>
+                                    Jornada académica de un día
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="venue-info-item">
+
+                            <div class="venue-info-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+
+                            <div>
+                                <span>Horario</span>
+                                <strong>
+                                    08:30 – 16:15 h
+                                </strong>
+                                <p>
+                                    Hora del centro de México
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="venue-info-item">
+
+                            <div class="venue-info-icon">
+                                <i class="fa-solid fa-laptop"></i>
+                            </div>
+
+                            <div>
+                                <span>Modalidad</span>
+                                <strong>
+                                    Presencial y virtual
+                                </strong>
+                                <p>
+                                    Los datos de acceso se compartirán con las personas registradas
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-7">
+
+                    <div class="venue-map">
+
+                        <iframe
+                            src="https://www.google.com/maps?q=CENIDET%20Cuernavaca%20Morelos&output=embed"
+                            title="Ubicación del CENIDET"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                        <div class="venue-map-label">
+
+                            <i class="fa-solid fa-building-columns"></i>
+
+                            <div>
+                                <strong>
+                                    Tecnológico Nacional de México
+                                </strong>
+
+                                <span>
+                                    Centro Nacional de Investigación y Desarrollo Tecnológico
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="faq" class="faq-section">
+
+    <div class="container">
+
+        <div class="faq-header text-center">
+
+            <p class="section-tag">
+                Información útil
+            </p>
+
+            <h2 class="section-title">
+                Preguntas frecuentes
+            </h2>
+
+            <p class="faq-intro">
+                Consulta la información más importante para participar
+                en Q-Day 2026.
+            </p>
+
+        </div>
+
+
+        <div class="accordion faq-accordion" id="faqAccordion">
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingOne">
+
+                    <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseOne"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseOne">
+
+                        ¿La participación en Q-Day tiene algún costo?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="faqHeadingOne"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        No. El registro y la participación en Q-Day 2026 son gratuitos.
+                        Sin embargo, es necesario completar el formulario de registro
+                        para confirmar tu asistencia.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingTwo">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseTwo"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseTwo">
+
+                        ¿El evento será presencial o virtual?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqHeadingTwo"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        Q-Day se realizará en modalidad híbrida. Podrás asistir
+                        presencialmente al auditorio del CENIDET o seguir las
+                        actividades disponibles mediante transmisión en línea.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingThree">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseThree"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseThree">
+
+                        ¿Necesito conocimientos previos de computación cuántica?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqHeadingThree"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        No es indispensable. El programa está dirigido tanto a personas
+                        que comienzan a explorar la computación cuántica como a estudiantes,
+                        docentes, investigadores y profesionales con experiencia previa.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingFour">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseFour"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseFour">
+
+                        ¿Quiénes pueden participar?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqHeadingFour"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        La jornada está abierta a estudiantes de bachillerato,
+                        licenciatura y posgrado, así como a docentes, investigadores,
+                        profesionales, responsables académicos y público interesado
+                        en las tecnologías cuánticas.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingFive">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseFive"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseFive">
+
+                        ¿Cómo recibiré el acceso para participar en línea?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqHeadingFive"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        La información de acceso y transmisión se enviará a las personas
+                        registradas mediante el correo electrónico proporcionado en el
+                        formulario.
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h3 class="accordion-header" id="faqHeadingSix">
+
+                    <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqCollapseSix"
+                        aria-expanded="false"
+                        aria-controls="faqCollapseSix">
+
+                        ¿Se entregará constancia de participación?
+
+                    </button>
+
+                </h3>
+
+                <div
+                    id="faqCollapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="faqHeadingSix"
+                    data-bs-parent="#faqAccordion">
+
+                    <div class="accordion-body">
+                        La entrega de constancias estará sujeta a los lineamientos
+                        definidos por el comité organizador. Los detalles se comunicarán
+                        posteriormente a las personas registradas.
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="final-cta-section">
+
+    <div class="container">
+
+        <div class="final-cta">
+
+            <div class="final-cta-content">
+
+                <p class="final-cta-tag">
+                    Q-Day 2026
+                </p>
+
+                <h2>
+                    ¿Listo para formar parte de esta primera edición?
+                </h2>
+
+                <p>
+                    Participa en una jornada de divulgación, formación y vinculación
+                    dedicada a la computación cuántica y a la Ingeniería de Software Cuántico.
+                </p>
+
+                <div class="final-cta-data">
+
+                    <span>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        27 de agosto de 2026
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Auditorio CENIDET
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-laptop"></i>
+                        Modalidad híbrida
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="final-cta-action">
+
+                <span class="final-cta-free">
+                    Registro gratuito
+                </span>
+
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn final-cta-button">
+
+                    <i class="fa-solid fa-ticket me-2"></i>
+                    Registrarme ahora
+
+                </a>
+
+                <small>
+                    Cupo presencial sujeto a disponibilidad
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===================== FOOTER ===================== -->
+<footer class="footer-qday">
+
+    <div class="container">
+
+        <div class="row gy-5">
+
+            <div class="col-lg-4">
+
+                <img
+                    src="img/Q-Day-SF.png"
+                    alt="Q-Day"
+                    class="footer-logo">
+
+                <p class="footer-description">
+
+                    Primera Jornada de Computación Cuántica
+                    orientada a la Ingeniería de Software Cuántico.
+
+                </p>
+
+                <p class="footer-description">
+
+                    Un espacio para impulsar la divulgación,
+                    la formación y la colaboración entre la
+                    academia, la industria y la comunidad tecnológica.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="col-lg-2">
+
+                <h4 class="footer-title">
+                    Navegación
+                </h4>
+
+                <ul class="footer-links">
+
+                    <li><a href="index.html">Inicio</a></li>
+
+                    <li><a href="#acerca">Acerca</a></li>
+
+                    <li><a href="#programa">Programa</a></li>
+
+                    <li><a href="#sede">Sede</a></li>
+
+                    <li><a href="#faq">Preguntas</a></li>
+
                 </ul>
-            </div>
-        </div>
-    </nav>
 
-    
+            </div>
 
-    <!-- ===================== FOOTER ===================== -->
-    <footer>
-        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-            <div>
-                <img src="img/logo_q.png" alt="" class="logoQ">
-                Jornada de Computación Cuántica Orientada a la Ingeniería de Software Cuántico · Cuernavaca, Morelos
+
+
+            <div class="col-lg-3">
+
+                <h4 class="footer-title">
+                    Información
+                </h4>
+
+                <ul class="footer-info">
+
+                    <li>
+
+                        <i class="fa-solid fa-calendar-days"></i>
+
+                        27 de agosto de 2026
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Auditorio CENIDET
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-laptop"></i>
+
+                        Modalidad híbrida
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-ticket"></i>
+
+                        Registro gratuito
+
+                    </li>
+
+                </ul>
+
             </div>
-            <div>
-                <a href="#inicio" class="me-3"><i class="fa-solid fa-arrow-up"></i> Volver arriba</a>
-                <a href="mailto:quantum.day@cenidet.tecnm.mx"><i class="fa-solid fa-envelope me-1"></i>Contacto</a>
+
+
+
+            <div class="col-lg-3">
+
+                <h4 class="footer-title">
+                    Registro
+                </h4>
+
+                <p class="footer-description">
+
+                    Asegura tu lugar y participa en la primera edición
+                    de Q-Day.
+
+                </p>
+
+                <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfn6Pfu4XmFD0uXMZKRlUsbhpeH9GpSEDR9-cLj3hVXdWts2w/viewform"
+                    target="_blank"
+                    class="btn btn-quantum">
+
+                    Registrarme
+
+                </a>
+
             </div>
+
         </div>
+
+
+
+        <hr class="footer-divider">
+
+
+
+        <div class="footer-bottom">
+
+            <div>
+
+                <img src="img/TecNM_logo_blanco.png"
+                     class="footer-brand">
+
+                <img src="img/Cenidet_logo.png"
+                     class="footer-brand">
+
+            </div>
+
+            <p>
+
+                © 2026 Q-Day · Tecnológico Nacional de México ·
+                Centro Nacional de Investigación y Desarrollo Tecnológico
+
+            </p>
+
+        </div>
+
+    </div>
+
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- ===================== MODALES DE CONFERENCIAS ===================== -->
+     <!-- ===================== MODAL JOSÉ LUIS ===================== -->
 
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaJoseLuis"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaJoseLuis"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <div>
+
+                        <span class="conference-modal-type">
+                            Sesión de apertura
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaJoseLuis">
+
+                            Introducción a la Computación Cuántica
+                        </h2>
+
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    <p class="conference-speaker">
+                        <i class="fa-solid fa-user"></i>
+                        M.Sc. José Luis Ramírez Alcántara · Tecnológico Nacional de México / CENIDET
+                    </p>
+
+                    <h3>Resumen</h3>
+
+                    <p>
+                    La computación clásica se acerca a sus límites físicos y teóricos establecidos en la era del silicio. Ante este panorama, la computación cuántica emerge no como una evolución tecnológica, sino como un cambio radical de paradigma basado en los principios de la mecánica cuántica. La conferencia ofrece un recorrido estratégico sobre las bases conceptuales de la computación cuántica, sus principales aplicaciones y los retos del cambio de paradigma. Se explican los pilares de esta tecnología —superposición, entrelazamiento e interferencia cuántica— y su impacto en aplicaciones como la medicina, la optimización de sistemas globales y la ciberseguridad mediante la criptografía post-cuántica. Finalmente, se exponen los retos desde la perspectiva de la formación de los nuevos Ingenieros de Software del TecNM.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Conferencia: Dr. Braulio -->
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaBraulio"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaBraulio"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+         <div class="modal-content">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="conference-modal-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaBraulio">
+
+                            Computación Cuántica en México: Cómo Construir una Carrera con Impacto Internacional
+                        </h2>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p class="conference-speaker">
+                        <i class="fa-solid fa-user"></i>
+                        Dr. Braulio Misael Villegas Martínez · CIICAp
+                    </p>
+
+                    <h3>Resumen de la conferencia</h3>
+
+                    <p>
+                        La computación cuántica está impulsando una nueva generación de avances científicos y tecnológicos, creando oportunidades para que estudiantes e investigadores mexicanos participen en proyectos de investigación y desarrollo con impacto internacional. En esta conferencia se abordarán las oportunidades para desarrollar una carrera en este campo desde México, destacando la importancia de la formación, el desarrollo de software cuántico, la colaboración internacional y la participación en iniciativas de investigación que contribuyan al fortalecimiento del ecosistema nacional de tecnologías cuánticas.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Conferencia: Víctor Onofre -->
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaVictor"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaVictor"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="conference-modal-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaVictor">
+
+                            Quantum Computing with Neutral Atoms
+                        </h2>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p class="conference-speaker">
+                        <i class="fa-solid fa-video"></i>
+                        M.Sc. Víctor Onofre · Pasqal
+                    </p>
+
+                    <h3>Resumen de la conferencia</h3>
+
+                    <p>
+                        La conferencia presentará una visión general de la computación cuántica basada en átomos neutros, una de las arquitecturas más prometedoras para el desarrollo de procesadores cuánticos escalables. Se abordarán los principios fundamentales de esta tecnología, las características que la distinguen de otras plataformas de hardware cuántico y su papel dentro del ecosistema actual de la computación cuántica. Asimismo, se ofrecerá un panorama sobre los avances recientes, los desafíos tecnológicos y las oportunidades que esta arquitectura representa para el desarrollo de aplicaciones científicas e industriales, permitiendo a los asistentes conocer el potencial de una de las líneas de investigación con mayor crecimiento en la actualidad.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- Foro de Estudiantes-->
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaInvitado"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaInvitado"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="conference-modal-type">
+                            Actividad especial
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaInvitado">
+
+                            Foro de Estudiantes
+                        </h2>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+
+                    <p>
+                        Este foro reunirá a estudiantes que actualmente desarrollan proyectos,
+
+        investigaciones o actividades relacionadas con la computación cuántica.
+
+        Más que una conferencia tradicional, será un espacio abierto de conversación
+
+        donde los participantes compartirán sus experiencias personales, el camino
+
+        que los llevó a involucrarse en esta disciplina y los retos que han enfrentado
+
+        durante su formación. Los asistentes podrán realizar preguntas y conocer de
+
+        primera mano las oportunidades académicas, profesionales y de investigación
+
+        que existen dentro del ecosistema de la computación cuántica.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- Conferencia: Alejandro Fernández -->
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaAlejandro"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaAlejandro"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="conference-modal-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaAlejandro">
+
+                            Más allá de los qubits: ser conscientes de los recursos cuánticos en la era NISQ
+                        </h2>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p class="conference-speaker">
+                        <i class="fa-solid fa-video"></i>
+                        Dr. Alejandro Fernández · RIPAISC
+                    </p>
+
+                    <h3>Resumen de la conferencia</h3>
+
+                    <p>
+                        En la computación clásica, hablar de recursos remite casi de manera inmediata a memoria, CPU o ancho de banda. En lo cuántico, sin embargo, el concepto de recurso adquiere un carácter radicalmente distinto: se trata de propiedades intrínsecas de la mecánica cuántica como el entrelazamiento, la no-localidad o la contextualidad, además de parámetros físicos como tiempos de coherencia, fidelidad de compuertas o topologías de conectividad. Estos recursos son frágiles, variables y, a la vez, la clave para cualquier ventaja cuántica. En esta charla proponemos una mirada consciente de los recursos en la era NISQ, entendiendo que la potencia de los algoritmos cuánticos no se mide solo en número de qubits, sino en la capacidad de sostener y explotar esas propiedades no clásicas en un entorno ruidoso y cambiante. Argumentaremos que, así como en la ingeniería de software clásica la gestión de recursos condiciona decisiones de arquitectura y diseño, en la ingeniería de software cuántico necesitamos una cultura de desarrollo resource-aware que incorpore métricas, pruebas y herramientas para decidir cuándo y cómo ejecutar un algoritmo. Presentaremos nuestra visión de un framework de gestión dinámica de recursos y el prototipo Qonscious, que permite condicionar la ejecución de circuitos a la disponibilidad real de recursos cuánticos. El objetivo es invitar a repensar la práctica de la ingeniería de software cuántico: no basta con diseñar algoritmos elegantes, sino quedebemos aprender a ser conscientes de los recursos que los hacen posibles y de cómo gestionarlos para aprovechar —aunque sea parcialmente— la ventaja cuántica en la era NISQ.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- Conferencia: IBM -->
+    <div
+        class="modal fade conference-modal"
+        id="modalConferenciaIBM"
+        tabindex="-1"
+        aria-labelledby="tituloConferenciaIBM"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <div>
+                        <span class="conference-modal-type">
+                            Conferencia magistral
+                        </span>
+
+                        <h2
+                            class="modal-title"
+                            id="tituloConferenciaIBM">
+
+                            IBM Quantum
+                        </h2>
+                    </div>
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Cerrar">
+                    </button>
+                </div>
+
+                <div class="modal-body">
+
+                    <p class="conference-speaker">
+                        <i class="fa-solid fa-video"></i>
+                        M.Sc. José Luis Rodríguez Gómez · IBM
+                    </p>
+
+                    <h3>Resumen de la conferencia</h3>
+
+                    <p>
+                        La computación cuántica se se perfila para abrir una nueva era de innovación. En esta presentación, escucharás los avances tecnológicos que IBM que está haciendo para transformar a la computación empresarial y sobre los beneficios que se observan desde hoy mirando hacia la etapa futura de ventaja cuántica. Platicaremos sobre la arquitectura computacional del futuro cuántico y casos de uso aplicables a diferentes industrias.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- Bootstrap JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+        </script>
+
+    </body>
 </html>
+ 
